@@ -1,0 +1,28 @@
+# 本机运行时产物（首次运行自动生成，不入库）
+_runtime/
+_backup/
+__pycache__/
+*.pyc
+
+# 运行状态 / 配置 / 日志
+_*.json
+_*.log
+_*.instance
+_*.lock
+_*.txt
+_键盘.json
+_鼠标.json
+_界面.json
+
+# 签名私钥与钥匙串（绝不入库）
+_自签证书/
+_外壳.cdhash
+_外壳.signkind
+
+# 编译产物
+_右键扩展/_out/
+*.app
+*.appex
+
+# 系统杂物
+.DS_Store
